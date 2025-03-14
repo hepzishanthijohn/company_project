@@ -48,7 +48,10 @@ const ServiceDetailsLeft1 = ({ filter }) => {
               </div>
             </div> */}
             <div className="sidebar-box-area sidebar-bg mb-40">
+              <div>
               <h3>Our Services</h3>
+              </div>
+              <div></div>
               <ul className="features-list">
                 {Object.keys(Servicedata).map((key, index) => (
                   <li key={index}>

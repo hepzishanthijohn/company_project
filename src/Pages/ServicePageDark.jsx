@@ -7,7 +7,7 @@ import Service6 from "../Components/Services/Service6";
 const ServicePageDark = () => {
     return (
         <div className="service-page-dark">
-            <BreadCumb2 Title="Our Services"></BreadCumb2>
+            <BreadCumb2 Title="Our Services" ></BreadCumb2>
             <MarqueeText></MarqueeText>
             <Service6></Service6>
             <Choose2></Choose2>
@@ -17,3 +17,6 @@ const ServicePageDark = () => {
 };
 
 export default ServicePageDark;
+
+
+

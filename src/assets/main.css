@@ -6850,8 +6850,9 @@ a.header__search.header-search-btn p {
   }
 }
 
-.mb-40 {
-  margin-bottom: 40px;
+
+.sidebar-box-area{
+  overflow: hidden;
 }
 
 .sidebar-box-area h3 {
@@ -6860,6 +6861,7 @@ a.header__search.header-search-btn p {
   font-weight: var(--f-fw-blod);
   color: var(--ztc-text-text-1);
   padding-bottom: 24px;
+  z-index: 1;
 }
 .sidebar-box-area p {
   font-size: var(--f-fs-font-fs16);
@@ -6905,6 +6907,10 @@ a.header__search.header-search-btn p {
   right: 20px;
   top: 14px;
 }
+.sidebar-box-area .features-list{
+  animation: scrollAnimation 10s linear infinite; /* Apply animation */
+ 
+}
 .sidebar-box-area .features-list li a {
   display: flex;
   align-items: center;
@@ -6918,12 +6924,23 @@ a.header__search.header-search-btn p {
   margin-bottom: 16px;
   transition: all 0.4s;
   font-weight: var(--f-fw-blod);
+  z-index: -1;
 }
 .sidebar-box-area .features-list li a:hover {
   background-color: var(--ztc-bg-main-bg-1);
   transition: all 0.4s;
   color: var(--ztc-bg-color-w);
 }
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0); /* Start at the top */
+  }
+  100% {
+    transform: translateY(-100%); /* Move the list up */
+  }
+}
+
 .sidebar-box-area .tags li {
   display: inline-block;
 }
@@ -11602,59 +11619,63 @@ a.header__search.header-search-btn p {
   overflow: hidden;
   background: #E7EAF3;
 } */
-
+.common-hero.hero-container{
+  width: 100%;
+}
 .common-hero {
-  min-height: 400px;
+  min-height: 500px;
   display: flex;
   padding-top: 90px;
   align-items: center;
   position: relative;
   z-index: -2;
   overflow: hidden;
-
-
-  /* Background Image */
-  background: url('/assets/img/servicesImages/intel.webp'); /* Replace with your image path */
-  background-size: cover; /* Ensures image covers the entire div */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents image from repeating */
+  margin-left: -80px;
 }
 
-.common-hero .main-heading span.span {
+.common-hero .service-heading span.span {
   display: inline-block;
   font-size: var(--f-fs-font-fs16);
   line-height: var(--f-fs-font-fs16);
   font-weight: var(--f-fw-blod);
-  color: var(--ztc-bg-main-bg-1);
+  color: skyblue;
+
+ 
   margin-bottom: 16px;
+
 }
-.common-hero .main-heading span.span img {
+.common-hero .service-heading span.span img {
+  
   margin-top: -3px;
   margin-right: 2px;
   color: white;
 }
-.common-hero .main-heading span.span span.arrow {
+.common-hero .service-heading span.span span.arrow {
   display: inline-block;
   padding: 0px 3px;
   font-size: 15px;
 }
-.common-hero .main-heading span.span a {
-  color: var(--ztc-bg-main-bg-1);
+.common-hero .service-heading span.span a {
+  color: skyblue;
+  
 }
-.common-hero .main-heading h1 {
-  font-size: var(--f-fs-font-fs64);
+.common-hero .service-heading h1 {
+  font-size: var(--f-fs-font-fs70);
   line-height: var(--f-fs-font-fs74);
   font-weight: var(--f-fw-blod);
   color: #fff;
+  text-shadow: 
+    2px 2px 5px gold,  /* White shadow */
+    4px 4px 5px blue;   /* Gold shadow */  
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .common-hero .main-heading h1 {
+  .common-hero .service-heading h1 {
     font-size: var(--f-fs-font-fs40);
     line-height: var(--f-fs-font-fs48);
   }
 }
 @media (max-width: 767px) {
-  .common-hero .main-heading h1 {
+  .common-hero .service-heading h1 {
     font-size: var(--f-fs-font-fs40);
     line-height: var(--f-fs-font-fs48);
   }
