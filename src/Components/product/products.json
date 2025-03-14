@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Net Kavach",
+        "image": "/images/net-kavach.jpg",
+        "details": "A robust firewall solution designed to protect your network from cyber threats by offering multi-layered security and real-time threat analysis.",
+        "keyPoints": [
+            "Advanced threat protection with AI-driven security",
+            "Real-time monitoring and instant threat detection",
+            "Seamless integration with existing IT infrastructure",
+            "DDoS protection and intrusion prevention system",
+            "Customizable security policies for network control"
+        ]
+    },
+    {
+        "name": "Data Kavach",
+        "image": "/images/data-kavach.jpg",
+        "details": "An enterprise-grade data security solution that ensures end-to-end encryption, access control, and compliance adherence for critical data assets.",
+        "keyPoints": [
+            "End-to-end encryption for secure data transmission",
+            "Granular access control with role-based permissions",
+            "Cloud and on-premise data security solutions",
+            "Automated compliance monitoring and reporting",
+            "Data loss prevention (DLP) to stop unauthorized leaks"
+        ]
+    },
+    {
+        "name": "AI Kavach",
+        "image": "/images/ai-kavach.jpg",
+        "details": "A cutting-edge cybersecurity solution powered by AI and machine learning to proactively detect and mitigate cyber threats before they cause damage.",
+        "keyPoints": [
+            "AI-driven threat detection and risk analysis",
+            "Automated response to mitigate security breaches",
+            "Predictive analytics to anticipate cyber threats",
+            "Self-learning algorithms for continuous improvement",
+            "Seamless integration with security operation centers (SOCs)"
+        ]
+    }
+]

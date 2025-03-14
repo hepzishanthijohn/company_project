@@ -1,0 +1,341 @@
+{
+  "software-development": {
+    "banner": "/assets/img/service/go_digital.jpg",
+    "title": "Software Development",
+    "desc": "At Zigma Technologies, we deliver end-to-end software development services tailored to your business needs. Whether it’s web applications, mobile solutions, or large-scale custom enterprise software, our expertise ensures high-performance, scalable, and secure solutions.",
+    "sub_title_1": "Our Expertise",
+    "sub_title_2": "Beyond Digitization – Complete Digital Transformation",
+    "sub_desc_2": "Zigma’s digital transformation services go beyond document digitization, helping businesses leverage emerging technologies for greater efficiency and growth. Our solutions include",
+    "features": {
+      "customDevelopment": "Our team specializes in developing custom software solutions tailored to address your specific business challenges. Whether you need a web application, mobile app, or enterprise software, we provide solutions that align with your business needs.",
+      "developmentServices": "From initial concept and design to development, testing, and deployment, we offer comprehensive full-cycle development services to ensure a seamless and efficient development process."
+    },
+    "technologies": {
+      "Web & Mobile Development": [
+        "• Build dynamic, responsive web applications and feature-rich mobile apps"
+      ],
+      "Large-Scale Custom Applications": [
+        "• Develop robust, high-traffic enterprise solutions."
+      ],
+      "Seamless integration": ["• cloud, APIs, and third-party services."],
+      "Full-Cycle Development": ["MySQL", "MongoDB", "PostgreSQL", "Oracle"],
+      "Modern Technologies": [
+        "• Expertise in AI, machine learning, blockchain and microservices architecture."
+      ]
+    },
+    "relatedServices": [
+      {
+        "title": "Consulting Service",
+        "desc": "Strategic IT planning and roadmap development, business process analysis, and improvement for IT solutions and technology.",
+        "link": "/service/consulting-service",
+        "icon": "/assets/img/icons/service-page-icon1.png"
+      },
+      {
+        "title": "Cloud Solution",
+        "desc": "Cloud migration, deployment, and management services to ensure seamless and secure cloud adoption for your business.",
+        "link": "/service/cloud-solution",
+        "icon": "/assets/img/icons/service-page-icon2.png"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What types of software do you develop?",
+        "answer": "We develop a wide range of software solutions, including web applications, mobile apps, enterprise software, and cloud-based platforms."
+      },
+      {
+        "question": "How do you ensure software quality?",
+        "answer": "We follow a rigorous development and testing process, including code reviews, automated testing, and user feedback integration to ensure high-quality deliverables."
+      },
+      {
+        "question": "Can you integrate existing systems with new software?",
+        "answer": "Yes, we specialize in integrating new software solutions with existing systems to enhance functionality and ensure seamless operation."
+      },
+      {
+        "question": "Do you offer post-launch support?",
+        "answer": "Yes, we provide ongoing maintenance and support services to ensure your software remains up-to-date and performs optimally."
+      }
+    ]
+  },
+  "cloud-computing-solutions": {
+    "banner": "/assets/img/service/cloud.jpg",
+    "title": "Cloud Computing Solutions",
+    "desc": "Empower your business with scalable, secure, and cost-effective cloud computing solutions. Our expertise spans cloud migration, deployment, and optimization to ensure seamless digital transformation.",
+    "approach": "We take a strategic approach to cloud computing, evaluating your business needs and implementing the best cloud infrastructure. Whether it's public, private, or hybrid cloud, we ensure security, efficiency, and compliance.",
+    "features": {
+      "cloudMigration": "Seamless migration of applications, data, and infrastructure to the cloud with minimal disruption.",
+      "cloudManagement": "Ongoing cloud management, monitoring, and optimization to maximize performance and cost savings."
+    },
+    "technologies": {
+      "cloudPlatforms": ["AWS", "Azure", "Google Cloud", "IBM Cloud"],
+      "containerization": ["Docker", "Kubernetes"],
+      "serverless": ["AWS Lambda", "Azure Functions"]
+    },
+    "relatedServices": [
+      {
+        "title": "Data Analytics & BI",
+        "desc": "Leverage cloud-powered analytics for smarter business decisions.",
+        "link": "/service/data-analytics",
+        "icon": "/assets/img/icons/service-page-icon1.png"
+      },
+      {
+        "title": "Cybersecurity & Compliance",
+        "desc": "Ensure data security and regulatory compliance for cloud environments.",
+        "link": "/service/cybersecurity",
+        "icon": "/assets/img/icons/service-page-icon2.png"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the benefits of cloud computing?",
+        "answer": "Cloud computing offers scalability, cost savings, enhanced security, and remote accessibility."
+      },
+      {
+        "question": "Do you provide cloud security solutions?",
+        "answer": "Yes, we implement robust security measures to protect your cloud infrastructure from threats."
+      }
+    ]
+  },
+  "data-analytics-business-intelligence": {
+    "banner": "/assets/img/service/analytics.jpg",
+    "title": "Data Analytics & Business Intelligence",
+    "desc": "Transform raw data into actionable insights with advanced data analytics and BI solutions, enhancing business decision-making.",
+    
+    "approach": "Our team utilizes cutting-edge tools and methodologies to collect, analyze, and visualize data, enabling businesses to make data-driven decisions efficiently.",
+    "features": {
+      "dataVisualization": "Interactive dashboards and reports for real-time business insights.",
+      "predictiveAnalytics": "AI-powered analytics for forecasting trends and improving business performance."
+    },
+    "technologies": {
+      "analyticsTools": ["Power BI", "Tableau", "Google Data Studio"],
+      "bigData": ["Hadoop", "Spark"],
+      "databases": ["SQL Server", "PostgreSQL", "MongoDB"]
+    },
+    "relatedServices": [
+      {
+        "title": "Cloud Computing Solutions",
+        "desc": "Leverage cloud storage and processing power for advanced analytics.",
+        "link": "/service/cloud-computing",
+        "icon": "/assets/img/icons/service-page-icon2.png"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How can data analytics benefit my business?",
+        "answer": "It helps in identifying trends, optimizing operations, and making informed decisions based on real-time data."
+      }
+    ]
+  },
+  "IT-consulting-support": {
+    "banner": "/assets/img/service/consulting.jpg",
+    "title": "IT Consulting & Support",
+    "desc": "Strategic IT consulting services to optimize business processes, improve technology infrastructure, and drive digital transformation.",
+    "approach": "We assess your IT needs, align technology with business objectives, and provide expert guidance to enhance efficiency and growth.",
+    "features": {
+      "strategyPlanning": "IT roadmaps and digital transformation strategies tailored to your business.",
+      "managedITServices": "Proactive IT support and maintenance to ensure business continuity."
+    },
+    "technologies": {
+      "platforms": ["Microsoft 365", "Google Workspace", "AWS"],
+      "ITSM": ["ServiceNow", "Zendesk"]
+    },
+    "relatedServices": [
+      {
+        "title": "Enterprise Integration",
+        "desc": "Seamlessly connect business applications for enhanced productivity.",
+        "link": "/service/enterprise-integration",
+        "icon": "/assets/img/icons/service-page-icon1.png"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What industries do you provide IT consulting for?",
+        "answer": "We work with various industries, including healthcare, finance, retail, and manufacturing."
+      }
+    ]
+  },
+  "cybersecurity-compliance": {
+    "banner": "/assets/img/service/cybersecurity.jpg",
+    "title": "Cybersecurity & Compliance",
+    "desc": "Protect your digital assets with comprehensive cybersecurity solutions, ensuring compliance with industry regulations.",
+    "approach": "We assess vulnerabilities, implement security frameworks, and monitor threats to safeguard your IT environment.",
+    "features": {
+      "threatDetection": "Advanced threat monitoring and intrusion detection systems.",
+      "complianceSupport": "Ensure adherence to GDPR, HIPAA, and other compliance requirements."
+    },
+    "technologies": {
+      "securityTools": ["Firewall", "SIEM", "Endpoint Security"],
+      "encryption": ["AES", "SSL/TLS"]
+    },
+    "relatedServices": [
+      {
+        "title": "Cloud Computing Security",
+        "desc": "Secure your cloud infrastructure against cyber threats.",
+        "link": "/service/cloud-security",
+        "icon": "/assets/img/icons/service-page-icon2.png"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do you ensure compliance with regulations?",
+        "answer": "We conduct audits, implement security policies, and provide compliance reporting."
+      }
+    ]
+  },
+  "enterprise-integration": {
+    "banner": "/assets/img/service/enterprise.jpg",
+    "title": "Enterprise Integration",
+    "desc": "In today’s digital landscape, businesses rely on multiple independent software applications. However, this fragmented approach creates data silos, preventing seamless communication and real-time collaboration. As a result, organizations face inefficiencies, poor customer experiences, and operational bottlenecks.",
+    "sub_title_1": "Zigma’s Enterprise Integration Services",
+    "sub_desc_1": "Zigma empowers organizations with cutting-edge integration solutions that",
+    "sub_title_2": "Modernization & Migration Services",
+    "sub_desc_2": "Upgrade your integration infrastructure effortlessly. Whether migrating to <b>cloud, hybrid, or next-gen platforms,</b> our expertise ensures a smooth transition with <b>minimal disruption</b> and <b>maximum efficiency</b>.",
+
+    "features": {
+      "APIIntegration": "Custom API development for seamless connectivity.",
+      "ERPCRMIntegration": "Integration with leading ERP and CRM platforms."
+    },
+    "technologies": {
+      "Connect Applications Seamlessly": [
+        "Enable smooth data exchange across systems."
+      ],
+      "Deliver Real-Time Insights": [
+        "Ensure a unified view of critical business information."
+      ],
+      "Enhance Agility & Efficiency": [
+        "Reduce complexity and improve operational flexibility."
+      ],
+      "Break Down Silos": [
+        "Foster collaboration between internal and external systems."
+      ]
+    },
+    "relatedServices": [
+      {
+        "title": "Deep Integration Expertise",
+        "desc": "Mastery in enterprise and open-source integration technologies to build future-proof solutions. Seamlessly connecting applications, data, and processes to drive innovation and efficiency.",
+
+        "icon": "/assets/img/icons/service-page-icon2.png"
+      },
+      {
+        "title": "Automation & IP-Driven Solutions",
+        "desc": "Accelerate implementation with pre-built frameworks, automation, and proprietary technology.",
+
+        "icon": "/assets/img/icons/service8-icon3.svg"
+      },
+      {
+        "title": "Extensive Partner Ecosystem",
+        "desc": "Strong collaborations with leading global technology providers for seamless integration services.",
+
+        "icon": "/assets/img/icons/service-page-icon2.png"
+      }
+    ],
+    "sub_desc_3": "Transform your enterprise with <b>Zigma’s next-gen integration solutions.</b> Let’s connect!",
+
+    "faq": [
+      {
+        "question": "Can you integrate legacy systems?",
+        "answer": "Yes, we specialize in modernizing and integrating legacy systems with new technologies."
+      }
+    ]
+  },
+  "intelligent-automation": {
+    "banner": "/assets/img/service/automation.jpg",
+
+    "title": "Intelligent Automation",
+    "desc": "Automate business processes with AI-driven solutions, improving efficiency, accuracy, and scalability.",
+    "approach": "We leverage robotic process automation (RPA) and AI technologies to automate repetitive tasks and enhance business productivity.",
+    "features": {
+      "RPASolutions": "Automate routine workflows with robotic process automation.",
+      "AIIntegration": "Implement AI-powered solutions for smarter business operations."
+    },
+    "technologies": {
+      "automationTools": ["UiPath", "Blue Prism", "Automation Anywhere"],
+      "AI": ["TensorFlow", "IBM Watson"]
+    },
+    "relatedServices": [
+      {
+        "title": "Enterprise Integration",
+        "desc": "Connect automation solutions with enterprise applications.",
+        "link": "/service/enterprise-integration",
+        "icon": "/assets/img/icons/automation-icon1.png"
+      }
+    ],
+    "sub_desc_3": "In today’s digital landscape, businesses rely on multiple independent software applications. However, this fragmented approach creates data silos, preventing seamless communication and real-time collaboration. As a result, organizations face inefficiencies, poor customer experiences, and operational bottlenecks.",
+
+    "faq": [
+      {
+        "question": "What tasks can be automated?",
+        "answer": "Repetitive, rule-based tasks such as data entry, invoice processing, and customer support automation."
+      }
+    ]
+  },
+  "digital-transformation": {
+    "banner": "/assets/img/service/transformation.jpg",
+    "title": "Digital Transformation",
+    "desc": "In today’s fast-evolving digital landscape, businesses need to modernize operations, optimize workflows, and enhance efficiency to stay competitive. Zigma Technologies enables organizations to transition seamlessly into the digital era with end-to-end digital transformation solutions tailored to their unique needs.",
+    "sub_title_1": "Document Digitization & Content Management",
+    "sub_desc_1": "Transform physical documents into secure, searchable, and structured digital assets with our advanced digitization services. We handle any format and ensure",
+    "sub_title_2": "Beyond Digitization – Complete Digital Transformation",
+    "sub_desc_2": "Zigma’s digital transformation services go beyond document digitization, helping businesses leverage emerging technologies for greater efficiency and growth. Our solutions include",
+
+    "features": {
+      "businessReengineering": "Reimagine business processes for digital efficiency.",
+      "cloudAdoption": "Leverage cloud-first strategies for scalable digital solutions."
+    },
+    "technologies": {
+      "High-Resolution Scanning": [
+        "Precision-driven conversion of physical documents into digital formats."
+      ],
+      "Quality Checks & Data Validation": [
+        "Ensuring accuracy, clarity, and completeness."
+      ],
+      "Metadata Tagging & Indexing": [
+        "Organizing data for easy retrieval and seamless searchability."
+      ],
+      "Secure Storage & Accessibility": [
+        "Centralized digital repositories with controlled access."
+      ]
+    },
+    "sub_technologies": {
+      "Process Automation": [
+        "Streamline operations with AI-driven workflow automation"
+      ],
+      "Cloud & Infrastructure Modernization": [
+        "Migrate legacy systems to modern, scalable platforms."
+      ],
+      "Enterprise Application Integration": [
+        "Connect disparate systems for seamless data flow."
+      ],
+      "Data Analytics & AI Implementation": [
+        "Gain actionable insights through advanced analytics and AI-driven intelligence."
+      ]
+    },
+    "relatedServices": [
+      {
+        "title": "Comprehensive Digital Solutions",
+        "desc": "Align IT strategies with digital transformation goals.",
+
+        "icon": "/assets/img/icons/service8-icon3.svg"
+      },
+      {
+        "title": "Cutting-Edge Technology",
+        "desc": "Leveraging AI, automation, and cloud solutions for efficiency.",
+
+        "icon": "/assets/img/icons/service8-icon3.svg"
+      },
+      {
+        "title": "Proven Expertise",
+        "desc": "Decades of experience delivering digital transformation for businesses of all sizes.",
+
+        "icon": "/assets/img/icons/service8-icon3.svg"
+      }
+    ],
+    "sub_desc_3": "Future-proof your business with Zigma’s digital transformation solutions. Let’s build the digital enterprise of tomorrow!",
+
+    "faq": [
+      {
+        "question": "How long does digital transformation take?",
+        "answer": "Timelines vary based on business complexity, but typically range from a few months to a few years."
+      }
+    ]
+  }
+}

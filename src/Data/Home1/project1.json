@@ -1,0 +1,28 @@
+[
+  {
+    "img": "/assets/img/work/project-img1.jpg",   
+    "title": "The Power of Digital Transformation",
+    "btnName": "Learn More"
+  },
+  {
+    "img": "/assets/img/work/project-img2.jpg",   
+    "title": "Enterprise Resource Planning Implementation",
+    "btnName": "Learn More"
+  },
+  {
+    "img": "/assets/img/work/project-img3.jpg",   
+    "title": "Data Centers: The Backbone of the Digital Age",
+    "btnName": "Learn More"
+  },
+  {
+    "img": "/assets/img/work/project-img4.jpg",   
+    "title": "Enterprise Integration",
+    "btnName": "Learn More"
+  },  
+  {
+    "img": "/assets/img/work/project-img5.jpg",   
+    "title": "Intelligent Automation",
+    "btnName": "Learn More"
+  }
+         
+]

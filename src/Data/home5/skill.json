@@ -1,0 +1,18 @@
+[
+  { 
+    "title": "Product development",
+    "desc": "80%"
+  },
+  {
+    "title": "IT consulting",
+    "desc": "60%"
+  },
+  {
+    "title": "Infrastructure solutions",
+    "desc": "90%"
+  },
+  {
+    "title": "Cyber security solutions",
+    "desc": "60%"
+  }
+]

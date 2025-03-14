@@ -1,0 +1,209 @@
+{
+    "cyber-kavach-solutions":{
+    "banner": "/assets/img/product/cyberbanner.jpg",
+   
+    
+    "product":[{
+
+        "name": "Net Kavach",
+        "image": "/assets/img/product/NETKAVACH.jpg",
+        "details": "A robust firewall solution designed to protect your network from cyber threats by offering multi-layered security and real-time threat analysis.",
+        "keyPoints": [
+            "Advanced threat protection with AI-driven security",
+            "Real-time monitoring and instant threat detection",
+            "Seamless integration with existing IT infrastructure",
+            "DDoS protection and intrusion prevention system",
+            "Customizable security policies for network control"
+        ]
+    },
+    {
+        "name": "Data Kavach",
+        "image": "/assets/img/product/Data.jpg",
+        "details": "An enterprise-grade data security solution that ensures end-to-end encryption, access control, and compliance adherence for critical data assets.",
+        "keyPoints": [
+            "End-to-end encryption for secure data transmission",
+            "Granular access control with role-based permissions",
+            "Cloud and on-premise data security solutions",
+            "Automated compliance monitoring and reporting",
+            "Data loss prevention (DLP) to stop unauthorized leaks"
+        ]
+    },
+    {
+        "name": "AI Kavach",
+        "image": "/assets/img/product/AI.jpg",
+        "details": "A cutting-edge cybersecurity solution powered by AI and machine learning to proactively detect and mitigate cyber threats before they cause damage.",
+        "keyPoints": [
+            "AI-driven threat detection and risk analysis",
+            "Automated response to mitigate security breaches",
+            "Predictive analytics to anticipate cyber threats",
+            "Self-learning algorithms for continuous improvement",
+            "Seamless integration with security operation centers (SOCs)"
+        ]
+    }]
+    },
+    "gen-AI-solutions": {
+        "banner": "/assets/img/product/cyberbanner.jpg",
+        "product": [{
+            "name": "GyaanBuddy DMS",
+            "image": "/assets/img/product/NETKAVACH.jpg",
+            "details": "A smart document management system powered by AI, streamlining knowledge organization, retrieval, and security.",
+            "keyPoints": [
+                "AI-driven document classification and organization",
+                "Seamless search and retrieval with smart indexing",
+                "Robust access control and version management",
+                "Automated compliance tracking and auditing",
+                "Secure cloud and on-premise deployment options"
+            ]
+        },
+        {
+            "name": "AI QA Generator",
+            "image": "/assets/img/product/Data.jpg",
+            "details": "An AI-powered question-answer generator designed to enhance learning, assessment, and knowledge evaluation.",
+            "keyPoints": [
+                "Auto-generate quizzes, tests, and assessments",
+                "AI-driven content analysis for accurate question creation",
+                "Adaptive learning recommendations based on performance",
+                "Multi-format question generation: MCQs, descriptive, and more",
+                "Seamless integration with e-learning platforms"
+            ]
+        },
+        {
+            "name": "AI Based Security",
+            "image": "/assets/img/product/AI.jpg",
+            "details": "A next-gen AI-powered security solution that proactively detects and neutralizes cyber threats in real time.",
+            "keyPoints": [
+                "AI-driven threat detection and risk mitigation",
+                "Automated response to security breaches",
+                "Predictive analytics to anticipate cyber threats",
+                "Self-learning AI for continuous adaptation",
+                "Seamless integration with security operation centers (SOCs)"
+            ]
+        }]
+    },
+    "ZPulse-infrastructure-solutions": {
+        "banner": "/assets/img/product/cyberbanner.jpg",
+        "product": [{
+            "name": "ZPulse NMS",
+            "image": "/assets/img/product/NETKAVACH.jpg",
+            "details": "A comprehensive network management system that provides real-time monitoring, analytics, and automation for seamless network operations.",
+            "keyPoints": [
+                "AI-powered network monitoring and diagnostics",
+                "Real-time alerts and performance tracking",
+                "Automated fault detection and resolution",
+                "Seamless integration with existing IT infrastructure",
+                "Customizable dashboards for network insights"
+            ]
+        },
+        {
+            "name": "ZPulse CRM",
+            "image": "/assets/img/product/Data.jpg",
+            "details": "An intelligent customer relationship management solution designed to enhance customer engagement, automate workflows, and drive business growth.",
+            "keyPoints": [
+                "360-degree customer insights and analytics",
+                "Automated lead management and sales tracking",
+                "Seamless integration with communication channels",
+                "AI-driven customer interaction predictions",
+                "Customizable workflows and reporting tools"
+            ]
+        },
+        {
+            "name": "ZPulse EMS",
+            "image": "/assets/img/product/AI.jpg",
+            "details": "An enterprise management system that streamlines operations, optimizes resources, and enhances decision-making with AI-driven analytics.",
+            "keyPoints": [
+                "Centralized enterprise resource planning",
+                "Automated workflow and process management",
+                "AI-driven insights for data-driven decision-making",
+                "Seamless collaboration across departments",
+                "Scalable and customizable for business needs"
+            ]
+        }]
+    }
+, "healthcare-solutions":{
+    "banner": "/assets/img/product/cyberbanner.jpg",
+   
+    
+    "product":[{
+
+        "name": "Net Kavach",
+        "image": "/assets/img/product/NETKAVACH.jpg",
+        "details": "A robust firewall solution designed to protect your network from cyber threats by offering multi-layered security and real-time threat analysis.",
+        "keyPoints": [
+            "Advanced threat protection with AI-driven security",
+            "Real-time monitoring and instant threat detection",
+            "Seamless integration with existing IT infrastructure",
+            "DDoS protection and intrusion prevention system",
+            "Customizable security policies for network control"
+        ]
+    },
+    {
+        "name": "Data Kavach",
+        "image": "/assets/img/product/Data.jpg",
+        "details": "An enterprise-grade data security solution that ensures end-to-end encryption, access control, and compliance adherence for critical data assets.",
+        "keyPoints": [
+            "End-to-end encryption for secure data transmission",
+            "Granular access control with role-based permissions",
+            "Cloud and on-premise data security solutions",
+            "Automated compliance monitoring and reporting",
+            "Data loss prevention (DLP) to stop unauthorized leaks"
+        ]
+    },
+    {
+        "name": "AI Kavach",
+        "image": "/assets/img/product/AI.jpg",
+        "details": "A cutting-edge cybersecurity solution powered by AI and machine learning to proactively detect and mitigate cyber threats before they cause damage.",
+        "keyPoints": [
+            "AI-driven threat detection and risk analysis",
+            "Automated response to mitigate security breaches",
+            "Predictive analytics to anticipate cyber threats",
+            "Self-learning algorithms for continuous improvement",
+            "Seamless integration with security operation centers (SOCs)"
+        ]
+    }]
+    }
+, "ERP-solutions":{
+    "banner": "/assets/img/product/cyberbanner.jpg",
+   
+    
+    "product":[{
+
+        "name": "Net Kavach",
+        "image": "/assets/img/product/NETKAVACH.jpg",
+        "details": "A robust firewall solution designed to protect your network from cyber threats by offering multi-layered security and real-time threat analysis.",
+        "keyPoints": [
+            "Advanced threat protection with AI-driven security",
+            "Real-time monitoring and instant threat detection",
+            "Seamless integration with existing IT infrastructure",
+            "DDoS protection and intrusion prevention system",
+            "Customizable security policies for network control"
+        ]
+    },
+    {
+        "name": "Data Kavach",
+        "image": "/assets/img/product/Data.jpg",
+        "details": "An enterprise-grade data security solution that ensures end-to-end encryption, access control, and compliance adherence for critical data assets.",
+        "keyPoints": [
+            "End-to-end encryption for secure data transmission",
+            "Granular access control with role-based permissions",
+            "Cloud and on-premise data security solutions",
+            "Automated compliance monitoring and reporting",
+            "Data loss prevention (DLP) to stop unauthorized leaks"
+        ]
+    },
+    {
+        "name": "AI Kavach",
+        "image": "/assets/img/product/AI.jpg",
+        "details": "A cutting-edge cybersecurity solution powered by AI and machine learning to proactively detect and mitigate cyber threats before they cause damage.",
+        "keyPoints": [
+            "AI-driven threat detection and risk analysis",
+            "Automated response to mitigate security breaches",
+            "Predictive analytics to anticipate cyber threats",
+            "Self-learning algorithms for continuous improvement",
+            "Seamless integration with security operation centers (SOCs)"
+        ]
+    }]
+    }
+
+
+}
+
