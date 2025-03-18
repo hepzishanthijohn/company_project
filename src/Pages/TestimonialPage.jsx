@@ -6,7 +6,7 @@ import Testimonial5 from "../Components/Testimonial/Testimonial5";
 const TestimonialPage = () => {
     return (
         <div>
-            <BreadCumb Title="Testimonial"></BreadCumb>
+            <BreadCumb Title="Testimonial" banner={"/assets/img/servicesImages/softdev3.jpeg"}></BreadCumb>
             <MarqueeText></MarqueeText>
             <Testimonial5></Testimonial5>
             <Cta1></Cta1>

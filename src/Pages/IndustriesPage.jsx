@@ -6,7 +6,7 @@ import Project4 from "../Components/Project/Project4";
 const IndustriesPage = () => {
     return (
         <div>
-            <BreadCumb Title="Our Industries"></BreadCumb>
+            <BreadCumb Title="Our Industries" banner={'public/assets/img/industryImage/industryBanner.jpg'}></BreadCumb>
             <MarqueeText></MarqueeText>
             <Project4></Project4>
             <Cta1></Cta1>

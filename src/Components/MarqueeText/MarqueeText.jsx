@@ -131,8 +131,7 @@ const MarqueeText = ({ names = ["Apple", "Google", "Microsoft", "Amazon", "Tesla
                             <div className="marquee-text">
                                 {names.concat(names).map((name, index) => ( // Duplicate for smooth loop
                                     <div className="brand-single-box" key={index}>
-                                     <img src="/assets/img/logo/slider-logo2.png" alt="" />
-                                     {/* <h3</h3> */}
+                                   
                                     </div>
                                 ))}
                             </div>

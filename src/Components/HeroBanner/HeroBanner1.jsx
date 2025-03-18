@@ -41,7 +41,7 @@ const HeroBanner1 = ({
      <div className="hero1">
       {/* Background Video */}
       <video autoPlay loop muted playsInline className="video-bg">
-        <source src={bgVideo} type="video/webm" />
+        <source src={bgVideo} type="video/webm" loading="lazy"/>
         Your browser does not support the video tag.
       </video>
 

@@ -23,7 +23,7 @@ const FaqContent1 = () => {
     }, [firstItemOpen]);
 
     return (
-        <div className="accordion accordion1 accordion-flush" id="accordionFlushExample">
+        <div className="accordion accordion1 accordion-flush" id="accordionFlushExample"   data-aos="fade-left" >
 
         {data.map((item, index)=>(
         <div key={index} className={`accordion-item ${index === openItemIndex ? "active" : "" }`} data-aos="fade-up" data-aos-duration="700">

@@ -3,54 +3,63 @@
     "icon": "/assets/img/icons/service-page-icon1.png",
     "title": "Consulting Service",
     "desc": "Strategic IT planning  roadmap development Business process analysis and improvement for It solution & technology.",   
-    "btnLink": "/service/IT-consulting-Support"
+    "btnLink": "/service/IT-consulting-Support",
+    "image" :"/assets/img/service/consulting.jpg"
   },
   {
     "icon": "/assets/img/icons/service-page-icon2.png",
     "title": "Software Development",
     "desc": "Mobile app development for iOS, Android, and cross-platform solutions & web application development.",   
-    "btnLink": "/service/software-development"
+    "btnLink": "/service/software-development",
+    "image" :"/assets/img/servicesImages/softdev3.jpeg"
   },
   {
     "icon": "/assets/img/icons/service-page-icon3.png",
     "title": "Cloud Solution",
     "desc": "Infrastructure as a Service (IaaS), Platform as a Service (PaaS),  and Software as a Service (SaaS) Platform",   
-    "btnLink": "/service/cloud-computing-solutions"
+    "btnLink": "/service/cloud-computing-solutions",
+    "image" :"/assets/img/servicesImages/cloud.jpg"
   },
   {
     "icon": "/assets/img/icons/service-page-icon4.png",
     "title": "Cyber Security",
     "desc": "Threat assessment and vulnerability analysis. Security strategy development and implementation",   
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "image" :"/assets/img/service/cybersecurity.jpg"
   },
   {
     "icon": "/assets/img/icons/service-page-icon5.png",
     "title": "Data Analytics",
     "desc": "Data visualization and business intelligence solutions Predictive analytics and machine learning solutions",   
-    "btnLink": "/service/data-analytics-business-intelligence"
+    "btnLink": "/service/data-analytics-business-intelligence",
+    "image" :"/assets/img/servicesImages/dataAnalyst.webp"
   },
   {
     "icon": "/assets/img/icons/service-page-icon6.png",
     "title": "Manage It Services",
     "desc": "Proactive IT monitoring and management Network infrastructure setup and  maintenance services",   
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "image" :"/assets/img/servicesImages/digitalTransformation.jpg"
   },
   {
     "icon": "/assets/img/icons/service-page-icon7.png",
     "title": "Mobile App Development",
     "desc": "Threat assessment and vulnerability analysis. Security strategy development and implementation",   
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "image" :"/assets/img/servicesImages/cloud.jpg"
   },
   {
     "icon": "/assets/img/icons/service-page-icon8.png",
-    "title": "IT Infrastructure & Networking",
+    "title": "IT Infrastructure ",
     "desc": "Data visualization and business intelligence solutions Predictive analytics and machine learning solutions",   
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "image" :"/assets/img/servicesImages/cloud.jpg"
   },
   {
     "icon": "/assets/img/icons/service-page-icon9.png",
     "title": "Custom Software Development",
     "desc": "Proactive IT monitoring and management Network infrastructure setup and maintenance Network",   
-    "btnLink": "/service/service-details"
+    "btnLink": "/service/service-details",
+    "image" :"/assets/img/servicesImages/cloud.jpg"
   }       
 ]

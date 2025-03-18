@@ -6,7 +6,7 @@ import MarqueeText from "../Components/MarqueeText/MarqueeText";
 const BlogPage = () => {
     return (
         <div>
-            <BreadCumb Title="Blog"></BreadCumb>
+            <BreadCumb Title="Blog" banner={"public/assets/img/insightBanner/insightBanner.webp"}></BreadCumb>
             <MarqueeText></MarqueeText>
             <Blog6></Blog6>
             <Cta1></Cta1>

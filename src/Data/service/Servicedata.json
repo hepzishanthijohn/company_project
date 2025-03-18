@@ -10,19 +10,30 @@
       "customDevelopment": "Our team specializes in developing custom software solutions tailored to address your specific business challenges. Whether you need a web application, mobile app, or enterprise software, we provide solutions that align with your business needs.",
       "developmentServices": "From initial concept and design to development, testing, and deployment, we offer comprehensive full-cycle development services to ensure a seamless and efficient development process."
     },
-    "technologies": {
-      "Web & Mobile Development": [
-        "• Build dynamic, responsive web applications and feature-rich mobile apps"
-      ],
-      "Large-Scale Custom Applications": [
-        "• Develop robust, high-traffic enterprise solutions."
-      ],
-      "Seamless integration": ["• cloud, APIs, and third-party services."],
-      "Full-Cycle Development": ["MySQL", "MongoDB", "PostgreSQL", "Oracle"],
-      "Modern Technologies": [
-        "• Expertise in AI, machine learning, blockchain and microservices architecture."
-      ]
-    },
+   
+   "technologies": {
+  "Web & Mobile Development": {
+    "icon": "fa fa-globe",
+    "description": ["Build dynamic, responsive web applications and feature-rich mobile apps"]
+  },
+  "Large-Scale Custom Applications": {
+    "icon": "fa fa-building",
+    "description": ["Develop robust, high-traffic enterprise solutions."]
+  },
+  "Seamless Integration": {
+    "icon": "fa fa-link",
+    "description": ["Cloud, APIs, and third-party services."]
+  },
+  "Full-Cycle Development": {
+    "icon": "fa fa-database",
+    "description": ["MySQL", "MongoDB", "PostgreSQL", "Oracle"]
+  },
+  "Modern Technologies": {
+    "icon": "fa fa-microchip",
+    "description": ["Expertise in AI, machine learning, blockchain, and microservices architecture."]
+  }
+}
+,
     "relatedServices": [
       {
         "title": "Consulting Service",
@@ -65,11 +76,21 @@
       "cloudMigration": "Seamless migration of applications, data, and infrastructure to the cloud with minimal disruption.",
       "cloudManagement": "Ongoing cloud management, monitoring, and optimization to maximize performance and cost savings."
     },
-    "technologies": {
-      "cloudPlatforms": ["AWS", "Azure", "Google Cloud", "IBM Cloud"],
-      "containerization": ["Docker", "Kubernetes"],
-      "serverless": ["AWS Lambda", "Azure Functions"]
-    },
+   "technologies": {
+  "Cloud Platforms": {
+    "icon": "fa fa-cloud",
+    "description": ["AWS", "Azure", "Google Cloud", "IBM Cloud"]
+  },
+  "Containerization": {
+    "icon": "fa fa-box",
+    "description": ["Docker", "Kubernetes"]
+  },
+  "Serverless": {
+    "icon": "fa fa-server",
+    "description": ["AWS Lambda", "Azure Functions"]
+  }
+}
+,
     "relatedServices": [
       {
         "title": "Data Analytics & BI",
@@ -106,10 +127,20 @@
       "predictiveAnalytics": "AI-powered analytics for forecasting trends and improving business performance."
     },
     "technologies": {
-      "analyticsTools": ["Power BI", "Tableau", "Google Data Studio"],
-      "bigData": ["Hadoop", "Spark"],
-      "databases": ["SQL Server", "PostgreSQL", "MongoDB"]
-    },
+  "Analytics Tools": {
+    "icon": "fa fa-chart-line",
+    "description": ["Power BI", "Tableau", "Google Data Studio"]
+  },
+  "Big Data": {
+    "icon": "fa fa-database",
+    "description": ["Hadoop", "Spark"]
+  },
+  "Databases": {
+    "icon": "fa fa-server",
+    "description": ["SQL Server", "PostgreSQL", "MongoDB"]
+  }
+}
+,
     "relatedServices": [
       {
         "title": "Cloud Computing Solutions",
@@ -135,9 +166,16 @@
       "managedITServices": "Proactive IT support and maintenance to ensure business continuity."
     },
     "technologies": {
-      "platforms": ["Microsoft 365", "Google Workspace", "AWS"],
-      "ITSM": ["ServiceNow", "Zendesk"]
-    },
+  "Platforms": {
+    "icon": "fa fa-cloud",
+    "description": ["Microsoft 365", "Google Workspace", "AWS"]
+  },
+  "ITSM": {
+    "icon": "fa fa-tools",
+    "description": ["ServiceNow", "Zendesk"]
+  }
+}
+,
     "relatedServices": [
       {
         "title": "Enterprise Integration",
@@ -163,9 +201,16 @@
       "complianceSupport": "Ensure adherence to GDPR, HIPAA, and other compliance requirements."
     },
     "technologies": {
-      "securityTools": ["Firewall", "SIEM", "Endpoint Security"],
-      "encryption": ["AES", "SSL/TLS"]
-    },
+  "Security Tools": {
+    "icon": "fa fa-shield-alt",
+    "description": ["Firewall", "SIEM", "Endpoint Security"]
+  },
+  "Encryption": {
+    "icon": "fa fa-lock",
+    "description": ["AES", "SSL/TLS"]
+  }
+}
+,
     "relatedServices": [
       {
         "title": "Cloud Computing Security",
@@ -194,20 +239,25 @@
       "APIIntegration": "Custom API development for seamless connectivity.",
       "ERPCRMIntegration": "Integration with leading ERP and CRM platforms."
     },
-    "technologies": {
-      "Connect Applications Seamlessly": [
-        "Enable smooth data exchange across systems."
-      ],
-      "Deliver Real-Time Insights": [
-        "Ensure a unified view of critical business information."
-      ],
-      "Enhance Agility & Efficiency": [
-        "Reduce complexity and improve operational flexibility."
-      ],
-      "Break Down Silos": [
-        "Foster collaboration between internal and external systems."
-      ]
-    },
+   "technologies": {
+  "Connect Applications Seamlessly": {
+    "icon": "fa fa-exchange-alt",
+    "description": ["Enable smooth data exchange across systems."]
+  },
+  "Deliver Real-Time Insights": {
+    "icon": "fa fa-chart-line",
+    "description": ["Ensure a unified view of critical business information."]
+  },
+  "Enhance Agility & Efficiency": {
+    "icon": "fa fa-bolt",
+    "description": ["Reduce complexity and improve operational flexibility."]
+  },
+  "Break Down Silos": {
+    "icon": "fa fa-network-wired",
+    "description": ["Foster collaboration between internal and external systems."]
+  }
+}
+,
     "relatedServices": [
       {
         "title": "Deep Integration Expertise",
@@ -247,10 +297,16 @@
       "RPASolutions": "Automate routine workflows with robotic process automation.",
       "AIIntegration": "Implement AI-powered solutions for smarter business operations."
     },
-    "technologies": {
-      "automationTools": ["UiPath", "Blue Prism", "Automation Anywhere"],
-      "AI": ["TensorFlow", "IBM Watson"]
-    },
+   "technologies": {
+  "Automation Tools": {
+    "icon": "fa fa-robot",
+    "description": ["UiPath", "Blue Prism", "Automation Anywhere"]
+  },
+  "AI": {
+    "icon": "fa fa-brain",
+    "description": ["TensorFlow", "IBM Watson"]
+  }
+},
     "relatedServices": [
       {
         "title": "Enterprise Integration",
@@ -282,19 +338,24 @@
       "cloudAdoption": "Leverage cloud-first strategies for scalable digital solutions."
     },
     "technologies": {
-      "High-Resolution Scanning": [
-        "Precision-driven conversion of physical documents into digital formats."
-      ],
-      "Quality Checks & Data Validation": [
-        "Ensuring accuracy, clarity, and completeness."
-      ],
-      "Metadata Tagging & Indexing": [
-        "Organizing data for easy retrieval and seamless searchability."
-      ],
-      "Secure Storage & Accessibility": [
-        "Centralized digital repositories with controlled access."
-      ]
-    },
+  "High-Resolution Scanning": {
+    "icon": "fa fa-print",
+    "description": ["Precision-driven conversion of physical documents into digital formats."]
+  },
+  "Quality Checks & Data Validation": {
+    "icon": "fa fa-check-circle",
+    "description": ["Ensuring accuracy, clarity, and completeness."]
+  },
+  "Metadata Tagging & Indexing": {
+    "icon": "fa fa-tags",
+    "description": ["Organizing data for easy retrieval and seamless searchability."]
+  },
+  "Secure Storage & Accessibility": {
+    "icon": "fa fa-lock",
+    "description": ["Centralized digital repositories with controlled access."]
+  }
+}
+,
     "sub_technologies": {
       "Process Automation": [
         "Streamline operations with AI-driven workflow automation"

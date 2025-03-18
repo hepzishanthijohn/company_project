@@ -1,34 +1,56 @@
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import data from '../../Data/sercicePage.json';
 
 const Service6 = () => {
-    return (
-        <div className="servcie2 service-page-sec">
-            <div className="space100"></div>
-        <div className="container">
-          <div className="row">
-          {data.map((item, i) => (
-            <div key={i} className="col-lg-4 col-md-6">
-              <div className="">
-                <div className="servcie2-box">
-                  <div className="icon">
-                    <img src={item.icon} alt="" />
-                  </div>
-                  <Link to={item.btnLink} className="arrow"><i className="bi bi-arrow-right"></i></Link>
-                  <div className="heading1">
-                    <h4><Link to={item.btnLink}>{item.title}</Link></h4>
-                    <div className="space16"></div>
-                    <p>{item.desc}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            ))}
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      offset: 100,
+    });
+  }, []);
 
+  return (
+    <div className="service2 service-page sp">
+    <div className="container">
+      <div className="row">
+      {data.map((item, i) => (
+        <div key={i} className="col-lg-4 col-md-8" data-aos="fade-up">
+          <div className="service2-box">
+            <div className="image">
+              <img src={item.image} alt="" />
+            </div>
+            <div className="heading">
+              
+              <h3 className='text-center'><Link to={item.btnLink}>{item.title}</Link></h3>
+              <div className="space15"></div>
+              <p>{item.desc}</p>
+              
+              <div className="d-flex flex-column h-0 ">
+  <div className="mt-auto text-end ">
+    <Link to={item.btnLink} className='learn'>
+      Read More <span><i className="bi bi-arrow-right "></i></span>
+    </Link>
+  </div>
+</div>
+            </div>
           </div>
         </div>
+    
+    ))}
+    
+    
+      
+    
       </div>
-    );
+    
+    
+    </div>
+    </div>
+  );
 };
 
 export default Service6;

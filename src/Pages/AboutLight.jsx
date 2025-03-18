@@ -10,7 +10,7 @@ import Testimonial1 from "../Components/Testimonial/Testimonial1";
 const AboutLight = () => {
     return (
         <div>
-            <BreadCumb Title="About Us"></BreadCumb>
+            <BreadCumb  Title="About Us" banner={'public/assets/img/aboutImg/aboutbanner.jpg'}></BreadCumb>
             <MarqueeText></MarqueeText>
             <About6
                 image1="/assets/img/about/service1.webp"

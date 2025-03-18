@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div className="home-page1">
       <HeroBanner1
-        bgVideo="https://www.sonata-software.com/sites/default/files/2023-08/banner-video-webm.webm"
+        bgVideo={"/banner-video-webm.webm"}
         // subTitle="The Zigma Technologies India (P) Limited"
         title="Transform Your Business With Next Generation <span class='after'>IT Solutions</span>"
         content="Welcome to Zigma where we specialise in delivering tailored technology and IT solutions designed to propel your business forward. From streamlining operations to and driving growth."

@@ -18,7 +18,6 @@ const serviceMap = {
 const ServiceIndex = () => {
   const { serviceName } = useParams();
 
-  console.log("Service Name from URL:", serviceName);  // Log the service name
   
   const service = serviceMap[serviceName] || {
     position: "left",
