@@ -6,7 +6,7 @@ import MarqueeText from "../Components/MarqueeText/MarqueeText";
 const ContactPage = () => {
     return (
         <div>
-            <BreadCumb Title="Contact Us"></BreadCumb>
+            <BreadCumb Title="Contact Us" banner={"/assets/img/servicesImages/contact.jpg"}></BreadCumb>
             <MarqueeText></MarqueeText>
             <ContactInfo1></ContactInfo1>
             <Cta1></Cta1>

@@ -7012,10 +7012,12 @@ a.header__search.header-search-btn p {
   font-weight: 400;
   line-height: 16px; /* 100% */
 }
+.our-experts{
+  padding: 20px;
+}
 
-
-.expert-container.our-experts .heading1 i.bi{
-  font-size: 42px;
+.expert-container.our-experts .heading1 i .fa{
+  font-size: 40px;
     width: 120px;
     height: 120px;
     padding: 40px 0;
@@ -7028,20 +7030,23 @@ a.header__search.header-search-btn p {
 .expert-container{
   padding: 100px 0;
   background-color: #2234ae;
-
+  border-radius: 7px;
   color: #fff;
 }
 .expert-container h4{
   color: #fff;
   
 }
-.icon-circle {
+.expert-container p{
+  margin-bottom: 0px;
+}
+.expert-container .icon-circle {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
-  width: 110px;
-  height: 110px;
+  font-size: 37px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto; /* Center inside column */
   background-color: #2234ae;
   background: linear-gradient(to right, #1a1f71, #2234ae); /* Deep Blue Gradient */
@@ -7057,7 +7062,7 @@ a.header__search.header-search-btn p {
 
 /* Fix the icon alignment inside the circle */
 .icon-circle i {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 1;
 }
 
@@ -7071,8 +7076,8 @@ a.header__search.header-search-btn p {
 .expert-container h3{
   margin-top: -70px;
   font-weight: 700;
-  font-size: 2.9rem;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 /*FREQUENTLY ASKED QUESTIONS*/
 
@@ -11677,6 +11682,37 @@ a.header__search.header-search-btn p {
   color: #fff;
   
 }
+
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .common-hero {
+    min-height: 380px; /* Reduced height for large tablets */
+    padding-top: 80px; /* Slightly reduced padding */
+  }
+}
+
+@media (max-width: 992px) {
+  .common-hero {
+    min-height: 350px; /* Reduced height for medium tablets */
+    padding-top: 70px; /* Less padding */
+  }
+}
+
+@media (max-width: 768px) {
+  .common-hero {
+    min-height: 300px; /* Reduced height for small tablets */
+    padding-top: 50px; /* Less padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .common-hero {
+    min-height: 250px; /* Further reduced height for mobile */
+    padding-top: 30px; /* Less padding for mobile */
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .common-hero .service-heading h1 {
     font-size: var(--f-fs-font-fs40);
@@ -13987,17 +14023,7 @@ a.header__search.header-search-btn p {
   background: var(--ztc-bg-main-bg-3);
 }
 
-.project-details-box {
-  background-color: #F8F9FA;
-  border-radius: 7px;
-  margin-top: 30px;
-  padding: 24px;
-  transition: all 0.4s;
-}
-.project-details-box:hover {
-  transition: all 0.4s;
-  transform: translateY(-5px);
-}
+
 
 .get-started-box {
   background-color: #0E38B1;
@@ -24251,3 +24277,164 @@ background-color: unset;
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
+
+/* Base styles */
+.subsection-container {
+  margin: 50px 0 70px 0;
+}
+
+.subsection-container h5 {
+  margin: 20px 0 0 0;
+  color: #2234ae;
+}
+
+
+
+.subsection-container .container {
+  background-image: url("/assets/img/servicesImages/softsection.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: fit-content; /* Adjust height as needed */
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  
+  display: flex; /* Flexbox layout */
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+}
+
+.subsection-container .container .bgsection {
+  background-color: white;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+  padding: 0 30px;
+  padding-top: 0;
+  width: 70%; /* Default width for large screens */
+  text-align: center;
+  position: relative;
+}
+
+/*BENEFITS CONTAINER*/
+.benefits-container .container {
+  background-image: url("/assets/img/industryImage/benefitbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 50px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  
+  display: flex; /* Flexbox layout */
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+}
+.project-details-box {
+   
+  display: flex; /* Flexbox layout */
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+ 
+  border-radius: 7px;
+  margin-top: 30px;
+  padding: 24px;
+  transition: all 0.4s;
+}
+.project-details-box:hover {
+  transition: all 0.4s;
+  transform: translateY(-5px);
+}
+.benefits-container i{
+  font-size: 50px;
+  padding: 20px;
+  color: goldenrod;
+}
+
+.benefits-container i:hover {
+  transform: scale(1.2); /* Make the icon bigger on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to make it look like a popup */
+  cursor: pointer; /* Change cursor to pointer to indicate interaction */
+}
+.benefits-container h5{
+  color: #fff;
+}
+/*MORE SERVICE*/
+
+.moreservice-box {
+  background-color: #fff;
+  border-radius: 7px;
+  width: 90%;
+  border: 1px solid #ddd; /* Border with color for better visibility */
+  transition: all 0.3s ease; /* Smooth transition for the hover effect */
+  position: relative; /* Necessary for the z-index to work */
+}
+.moreservice-box h4{
+  padding: 0 0 0 5px;
+}
+.moreservice-box p{
+  padding: 0 0 0 5px;
+}
+/* Hover effect to make the box pop up */
+.moreservice-box:hover {
+  transform: translateY(-5px); /* Moves the box upwards slightly */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Adds a subtle shadow to create depth */
+  z-index: 10; /* Brings the box to the front */
+}
+.moreservice-box .moreservice-image .service-image img{
+  height: 29vh;
+  width: 100%;
+  border-radius: 7px;
+}
+.moreservice-box button{
+
+  display: inline-block;
+  background-color: var(--ztc-bg-main-bg-1);
+  border-radius: 20px;
+  padding: 11px 20px;
+  color: var(--ztc-text-text-2);
+  font-weight: var(--f-fw-blod);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: all 0.4s;
+  border: none;
+}
+/* Hover effect */
+.moreservice-box button:hover {
+  background-color: #fff; /* Change to a different background color */
+  color: var(--ztc-bg-main-bg-1); /* Change text color */
+  transform: translateY(-5px); /* Lift the button up slightly */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* Optional: Add a focus effect to improve accessibility */
+.moreservice-box button:focus {
+  outline: none; /* Remove the default focus outline */
+  box-shadow: 0 0 0 4px rgba(0, 0, 255, 0.3); /* Add a blue focus ring */
+}
+.moreservice-image {
+  position: relative; /* Make the container positioned so the icon can be positioned inside it */
+}
+
+.moreservice-image .icon {
+  position: absolute;  /* Absolutely position the icon within the container */
+  top: 5px;   
+  padding: 10px;           /* Align it to the top */
+  right: 5px;   
+  background-color: white;   
+  border-radius: 50%;      /* Align it to the right */
+}
+
+.moreservice-box:hover {
+  transform: translateY(-10px); /* Moves the box up */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Creates a soft shadow for the popup effect */
+}
+

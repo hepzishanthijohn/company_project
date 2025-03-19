@@ -168,7 +168,7 @@ const ServiceDetailsLeft1 = ({ filter }) => {
             <div className="service-details-post">
               <article>
                 <div className="details-post-area">
-                  <div className="image" data-aos="fade-left">
+                  <div className="image image-anime" data-aos="fade-left">
                     <img
                       src={serviceInfo?.banner}
 
@@ -224,84 +224,94 @@ const ServiceDetailsLeft1 = ({ filter }) => {
                 </div>
               </article>
               <div className="space20"></div>
-              <article>
-                <div className="details-post-area">
-                  <div className="row">
-                    <div className="col-lg-12">
-                      <div className="heading1">
-                        <h5>{serviceInfo?.sub_title_2}</h5>
-                        <div className="space16"></div>
-                        <p
-                          dangerouslySetInnerHTML={{
-                            __html: serviceInfo?.sub_desc_2,
-                          }}
-                        ></p>
-
-                        {/* <p>{serviceInfo?.sub_desc_2}</p> */}
-                      </div>
-                    </div>
-                    {/* {serviceInfo?.relatedServices?.map((service, index) => (
-                                <div className="col-lg-6" key={index}>
-                                    <div className="space30"></div>
-                                    <div className="heading1">
-                                        <h5>{service.title}</h5>
-                                        <div className="space20"></div>
-                                        <p>{service.desc}</p>
-                                        <Link to={service.link} className="btn btn-primary">Learn More</Link>
-                                    </div>
-                                </div>
-                            ))} */}
-                  </div>
-                </div>
-              </article>
-              <div className="space20" ></div>
-
-
-              <div className="subcards">
-              <div className="row">
-                {serviceInfo?.relatedServices?.map((service, index) => (
-                  <div className="col-lg-6 col-md-6" key={index} data-aos="fade-up">
-                    <div className="servcie2-box servcie2-box-2">
-                      <div className="icon">
-                        <img src={service.icon} alt={service.title} />
-                      </div>
-
-                      <div className="heading1 ">
-                        {/* <h4>{service.title}</h4> */}
-                        <span className="service-title">{service.title}</span>
-
-                        {/* <Link to={service.link}>{service.title}</Link> */}
-
-                        {/* <h4
-  style={{ transition: "color 0.3s" }}
-  onMouseEnter={(e) => (e.target.style.color = "white")}
-  onMouseLeave={(e) => (e.target.style.color = "")}
->
-  {service.title}
-</h4> */}
-
-                        <div className="space16"></div>
-                        <p>{service.desc}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              </div>
-              <div className="space16"></div>
-              <div>
-                <p
-                  dangerouslySetInnerHTML={{ __html: serviceInfo?.sub_desc_3 }}
-                ></p>
-                {/* <p>{serviceInfo?.sub_desc_2}</p> */}
-              </div>
-
-            </div>
+                          </div>
           </div>
         </div>
       </div>
-      <div className="space50"></div>
 
+
+      
+
+      
+      <div className="space50"></div>
+      <div className="subsection-container">
+     <div className="container" >
+     <div className="bgsection" data-aos="zoom-in-up"> 
+     <article>
+               
+               <div className="row">
+                 <div className="col-lg-12">
+                   <div className="heading1">
+                     <h5 className="text-center" data-aos="fade-up">{serviceInfo?.sub_title_2}</h5>
+                     <div className="space16"></div>
+                     <p data-aos="fade-up"
+                       dangerouslySetInnerHTML={{
+                         __html: serviceInfo?.sub_desc_2,
+                       }}
+                     ></p>
+
+                     {/* <p>{serviceInfo?.sub_desc_2}</p> */}
+                   </div>
+                 </div>
+                 {/* {serviceInfo?.relatedServices?.map((service, index) => (
+                             <div className="col-lg-6" key={index}>
+                                 <div className="space30"></div>
+                                 <div className="heading1">
+                                     <h5>{service.title}</h5>
+                                     <div className="space20"></div>
+                                     <p>{service.desc}</p>
+                                     <Link to={service.link} className="btn btn-primary">Learn More</Link>
+                                 </div>
+                             </div>
+                         ))} */}
+               </div>
+           
+           </article>
+           <div className="space20" ></div>
+
+
+           <div className="subcards">
+           <div className="row">
+             {serviceInfo?.relatedServices?.map((service, index) => (
+               <div className="col-lg-6 col-md-6" key={index} data-aos="fade-up">
+                 <div className="servcie2-box servcie2-box-2">
+                   <div className="icon">
+                     <img src={service.icon} alt={service.title} />
+                   </div>
+
+                   <div className="heading1 ">
+                     {/* <h4>{service.title}</h4> */}
+                     <span className="service-title">{service.title}</span>
+
+                     {/* <Link to={service.link}>{service.title}</Link> */}
+
+                     {/* <h4
+style={{ transition: "color 0.3s" }}
+onMouseEnter={(e) => (e.target.style.color = "white")}
+onMouseLeave={(e) => (e.target.style.color = "")}
+>
+{service.title}
+</h4> */}
+
+                     <div className="space16"></div>
+                     <p>{service.desc}</p>
+                   </div>
+                 </div>
+               </div>
+             ))}
+           </div>
+           </div>
+           <div className="space16"></div>
+           <div>
+             <p
+               dangerouslySetInnerHTML={{ __html: serviceInfo?.sub_desc_3 }}
+             ></p>
+             {/* <p>{serviceInfo?.sub_desc_2}</p> */}
+           </div>
+     </div>
+</div>
+
+     </div>
       <div className="faq-area-all">
   <div className="container">
     <div className="row align-items-center">
@@ -337,9 +347,10 @@ const ServiceDetailsLeft1 = ({ filter }) => {
                 </button>
               </h2>
               <div
-                id={`flush-collapse${index}`}
-                className="accordion-collapse collapse"
-                aria-labelledby={`flush-heading${index}`}
+                ref={accordionContentRef}
+                id="flush-collapseOne"
+                className="accordion-collapse collapse accordion-content"
+                aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">{item.desc}</div>

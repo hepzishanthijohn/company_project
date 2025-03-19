@@ -25,7 +25,7 @@ const ServiceIndex = () => {
     // Default image
   };
 
-  console.log("Service Object:", service);  // Log the service object
+  
 
   const renderComponent = () => {
     switch (service.position) {

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import IndustriesContent from '../../Data/Industries/IndustriesData.json';
 import { useEffect, useState } from "react";
+import AOS from 'aos'
 
 const IndustriesRight1 = ({ filter }) => {
     const [content, setContent] = useState(null);
@@ -13,6 +14,13 @@ const IndustriesRight1 = ({ filter }) => {
             setContent(null);
         }
     }, [filter]);
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+          once: false,
+          offset: 100,
+        });
+      }, []);
 
     return (
         <div className="service-details-area-all sp">
@@ -22,8 +30,8 @@ const IndustriesRight1 = ({ filter }) => {
                         <div className="service-details-post">
                             <article>
                                 <div className="details-post-area">
-                                    <div className="image">
-                                        <img src="/assets/img/others/project-details-img1.png" alt="Industry Solutions" />
+                                    <div className="image image-anime" data-aos="fade-right" style={{borderRadius:"7px"}}>
+                                        <img src={content?.image} alt="Industry Solutions" />
                                     </div>
                                     <div className="space30"></div>
                                     <div className="heading1">
@@ -68,49 +76,7 @@ const IndustriesRight1 = ({ filter }) => {
                                 </article>
                             )}
 
-                            <div className="space50"></div>
-
-                            {/* Benefits Section */}
-                            {content?.benefits && (
-                                <article>
-                                    <div className="details-post-area">
-                                        <div className="row">
-                                            <div className="col-lg-12">
-                                                <div className="heading1">
-                                                    <h5>{content.benefits.title}</h5>
-                                                    <div className="space16"></div>
-                                                    <div className="row">
-                                                        {content.benefits.items.map((benefit, index) => (
-                                                            <div className="col-lg-6 col-md-6" key={index}>
-                                                                <div className="project-details-box heading1">
-                                                                    <h4><Link to="/project/project-details">{benefit.title}</Link></h4>
-                                                                    <div className="space16"></div>
-                                                                    <p>{benefit.description}</p>
-                                                                </div>
-                                                            </div>
-                                                        ))}
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            )}
-
-                            <div className="space50"></div>
-
-                          
-                            {content?.cta && (
-                                <div className="get-started-box">
-                                    <h3>{content.cta.title}</h3>
-                                    <div className="space16"></div>
-                                    <p>{content.cta.description}</p>
-                                    <div className="space30"></div>
-                                    <a href={content.cta.button_link} className="get-started-btn">
-                                        {content.cta.button_text} <span><i className="bi bi-arrow-right"></i></span>
-                                    </a>
-                                </div>
-                            )}
+                           
                         </div>
                     </div>
 
@@ -165,6 +131,52 @@ const IndustriesRight1 = ({ filter }) => {
                     </div>
                 </div>
             </div>
+            <div className="space50"></div>
+
+{/* Benefits Section */}
+{content?.benefits && (
+    <article>
+        <div className="benefits-container">
+            <div className="container">
+            <div className="row">
+                <div className="col-lg-12">
+                    <div className="heading1">
+                        <h5 className="text-center" data-aos="fade-up">{content.benefits.title}</h5>
+                        <div className="space16"></div>
+                        <div className="row">
+                            {content.benefits.items.map((benefit, index) => (
+                                <div className="col-lg-3 col-md-6" key={index} data-aos="zoom-in-up">
+                                    <div className="project-details-box heading2" >
+                                        <i className={benefit.icon}></i>
+                                        <h4><Link to="/project/project-details">{benefit.title}</Link></h4>
+                                        <div className="space16"></div>
+                                        <p>{benefit.description}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </article>
+)}
+
+<div className="space50"></div>
+
+
+{content?.cta && (
+    <div className="get-started-box">
+        <h3>{content.cta.title}</h3>
+        <div className="space16"></div>
+        <p>{content.cta.description}</p>
+        <div className="space30"></div>
+        <a href={content.cta.button_link} className="get-started-btn">
+            {content.cta.button_text} <span><i className="bi bi-arrow-right"></i></span>
+        </a>
+    </div>
+)}
         </div>
     );
 };

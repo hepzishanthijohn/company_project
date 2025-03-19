@@ -1,6 +1,7 @@
 {
   "retail": {
     "title": "Streamline Your Business Operations with (ERP) Systems",
+    "image": "/assets/img/industryImage/erp.jpg",
     "description": "Retail industry solutions including inventory management, customer experience optimization, and POS systems.",
     "implementation_process": {
       "title": "Our (ERP) Implementation Process",
@@ -13,27 +14,34 @@
         "Go Live & Support"
       ]
     },
-    "benefits": {
-      "title": "Benefits of (ERP) Implementation",
-      "items": [
-        {
-          "title": "Improved Efficiency",
-          "description": "Streamline business processes and workflows, reducing manual effort and improving productivity."
-        },
-        {
-          "title": "Enhanced Decision-Making",
-          "description": "Real-time insights and analytics help make informed business decisions."
-        },
-        {
-          "title": "Cost Savings",
-          "description": "Reduce operational costs by optimizing resource allocation."
-        },
-        {
-          "title": "Scalability",
-          "description": "Grow your business with a flexible ERP system that adapts to your needs."
-        }
-      ]
-    },
+    
+      "benefits": {
+        "title": "Benefits of (ERP) Implementation",
+        "items": [
+          {
+            "title": "Improved Efficiency",
+            "description": "Streamline business processes and workflows, reducing manual effort and improving productivity.",
+            "icon": "fa fa-cogs"
+          },
+          {
+            "title": "Enhanced Decision-Making",
+            "description": "Real-time insights and analytics help make informed business decisions.",
+            "icon": "fa fa-chart-bar"
+          },
+          {
+            "title": "Cost Savings",
+            "description": "Reduce operational costs by optimizing resource allocation.",
+            "icon": "fa fa-dollar-sign"
+          },
+          {
+            "title": "Scalability",
+            "description": "Grow your business with a flexible ERP system that adapts to your needs.",
+            "icon": "fa fa-arrow-up"
+          }
+        ]
+      },
+    
+    
     "cta": {
       "title": "Get Started with ERP Implementation Today",
       "description": "Ready to take your business to the next level with ERP implementation? Contact us today to learn more about our ERP services and how we can help you optimize your business operations for success.",
@@ -43,6 +51,7 @@
   },
   "banking-finance": {
     "title": "Enhancing Financial Services with Secure ERP Solutions",
+    "image": "/assets/img/industryImage/banking.jpg",
     "description": "Optimize financial operations with real-time analytics, compliance management, and risk assessment solutions.",
     "implementation_process": {
       "title": "Banking & Finance ERP Implementation",
@@ -56,26 +65,31 @@
       ]
     },
     "benefits": {
-      "title": "Why Choose Our ERP for Finance?",
-      "items": [
-        {
-          "title": "Regulatory Compliance",
-          "description": "Ensure compliance with financial regulations and minimize risks."
-        },
-        {
-          "title": "Real-Time Analytics",
-          "description": "Access accurate financial reports and business intelligence insights."
-        },
-        {
-          "title": "Fraud Prevention",
-          "description": "Improve security with AI-powered fraud detection systems."
-        },
-        {
-          "title": "Seamless Transactions",
-          "description": "Enhance customer experience with smooth financial operations."
-        }
-      ]
+  "title": "Why Choose Our ERP for Finance?",
+  "items": [
+    {
+      "title": "Regulatory Compliance",
+      "description": "Ensure compliance with financial regulations and minimize risks.",
+      "icon": "fa fa-shield-alt"
     },
+    {
+      "title": "Real-Time Analytics",
+      "description": "Access accurate financial reports and business intelligence insights.",
+      "icon": "fa fa-chart-line"
+    },
+    {
+      "title": "Fraud Prevention",
+      "description": "Improve security with AI-powered fraud detection systems.",
+      "icon": "fa fa-lock"
+    },
+    {
+      "title": "Seamless Transactions",
+      "description": "Enhance customer experience with smooth financial operations.",
+      "icon": "fa fa-sync-alt"
+    }
+  ]
+}
+,
     "cta": {
       "title": "Secure Your Financial Operations Today",
       "description": "Leverage our ERP solutions for seamless financial management and risk mitigation.",
@@ -85,6 +99,7 @@
   },
   "e-governance": {
     "title": "Empowering Digital Transformation in Government Services",
+    "image": "/assets/img/industryImage/erp.jpg",
     "description": "Leverage digital technologies for efficient and transparent governance.",
     "implementation_process": {
       "title": "E-Governance ERP Implementation",
@@ -98,26 +113,31 @@
       ]
     },
     "benefits": {
-      "title": "Advantages of E-Governance Solutions",
-      "items": [
-        {
-          "title": "Transparency & Accountability",
-          "description": "Improve governance with data-driven decision-making."
-        },
-        {
-          "title": "Faster Service Delivery",
-          "description": "Automate processes to enhance efficiency in public services."
-        },
-        {
-          "title": "Secure Data Management",
-          "description": "Ensure compliance and security of citizen data."
-        },
-        {
-          "title": "Seamless Digital Experience",
-          "description": "Enable smooth communication between government bodies and citizens."
-        }
-      ]
+  "title": "Advantages of E-Governance Solutions",
+  "items": [
+    {
+      "title": "Transparency & Accountability",
+      "description": "Improve governance with data-driven decision-making.",
+      "icon": "fa fa-eye"
     },
+    {
+      "title": "Faster Service Delivery",
+      "description": "Automate processes to enhance efficiency in public services.",
+      "icon": "fa fa-tachometer-alt"
+    },
+    {
+      "title": "Secure Data Management",
+      "description": "Ensure compliance and security of citizen data.",
+      "icon": "fa fa-lock"
+    },
+    {
+      "title": "Seamless Digital Experience",
+      "description": "Enable smooth communication between government bodies and citizens.",
+      "icon": "fa fa-users"
+    }
+  ]
+}
+,
     "cta": {
       "title": "Transform Public Services with ERP",
       "description": "Optimize your governance model with our robust digital solutions.",
@@ -127,6 +147,7 @@
   },
   "software-Hi-Tech": {
     "title": "Innovative ERP Solutions for the Software & Hi-Tech Industry",
+    "image": "/assets/img/industryImage/erp.jpg",
     "description": "Drive innovation with seamless project management, software lifecycle automation, and cloud solutions.",
     "implementation_process": {
       "title": "ERP Implementation for Hi-Tech Industries",
@@ -140,26 +161,31 @@
       ]
     },
     "benefits": {
-      "title": "Why ERP for Software & Hi-Tech?",
-      "items": [
-        {
-          "title": "Scalable Solutions",
-          "description": "Flexible ERP systems to support rapid business growth."
-        },
-        {
-          "title": "Automation & AI",
-          "description": "Enhance productivity with automation and AI-driven insights."
-        },
-        {
-          "title": "Cost Optimization",
-          "description": "Reduce infrastructure costs with cloud-based ERP."
-        },
-        {
-          "title": "Cybersecurity & Compliance",
-          "description": "Ensure data protection and compliance with industry standards."
-        }
-      ]
+  "title": "Why ERP for Software & Hi-Tech?",
+  "items": [
+    {
+      "title": "Scalable Solutions",
+      "description": "Flexible ERP systems to support rapid business growth.",
+      "icon": "fa fa-expand"
     },
+    {
+      "title": "Automation & AI",
+      "description": "Enhance productivity with automation and AI-driven insights.",
+      "icon": "fa fa-robot"
+    },
+    {
+      "title": "Cost Optimization",
+      "description": "Reduce infrastructure costs with cloud-based ERP.",
+      "icon": "fa fa-cloud"
+    },
+    {
+      "title": "Cybersecurity & Compliance",
+      "description": "Ensure data protection and compliance with industry standards.",
+      "icon": "fa fa-shield-alt"
+    }
+  ]
+}
+,
     "cta": {
       "title": "Revolutionize Your Tech Business",
       "description": "Unlock new growth opportunities with advanced ERP solutions.",
@@ -169,6 +195,7 @@
   },
   "healthcare": {
     "title": "Transforming Healthcare with Smart ERP Systems",
+    "image": "/assets/img/industryImage/erp.jpg",
     "description": "Enhance patient care, streamline hospital management, and optimize resource allocation with ERP solutions.",
     "implementation_process": {
       "title": "ERP Implementation in Healthcare",
@@ -182,26 +209,31 @@
       ]
     },
     "benefits": {
-      "title": "Healthcare ERP Benefits",
-      "items": [
-        {
-          "title": "Better Patient Care",
-          "description": "Improve treatment efficiency and patient experience."
-        },
-        {
-          "title": "Data Security & Compliance",
-          "description": "Ensure compliance with HIPAA and other regulations."
-        },
-        {
-          "title": "Inventory Management",
-          "description": "Optimize pharmaceutical and medical equipment tracking."
-        },
-        {
-          "title": "Automated Billing",
-          "description": "Streamline patient billing and insurance claims."
-        }
-      ]
+  "title": "Healthcare ERP Benefits",
+  "items": [
+    {
+      "title": "Better Patient Care",
+      "description": "Improve treatment efficiency and patient experience.",
+      "icon": "fa fa-heart"
     },
+    {
+      "title": "Data Security & Compliance",
+      "description": "Ensure compliance with HIPAA and other regulations.",
+      "icon": "fa fa-lock"
+    },
+    {
+      "title": "Inventory Management",
+      "description": "Optimize pharmaceutical and medical equipment tracking.",
+      "icon": "fa fa-cogs"
+    },
+    {
+      "title": "Automated Billing",
+      "description": "Streamline patient billing and insurance claims.",
+      "icon": "fa fa-file-invoice"
+    }
+  ]
+}
+,
     "cta": {
       "title": "Enhance Healthcare Efficiency",
       "description": "Deliver better patient outcomes with our smart ERP solutions.",
@@ -211,6 +243,7 @@
   },
   "consumer-technology": {
     "title": "Empowering Consumer Tech with Cutting-Edge ERP Solutions",
+    "image": "/assets/img/industryImage/erp.jpg",
     "description": "Innovate and scale consumer electronics, digital products, and tech services with robust ERP systems.",
     "implementation_process": {
       "title": "Consumer Tech ERP Implementation",
@@ -223,27 +256,32 @@
         "Market Launch & Support"
       ]
     },
-    "benefits": {
-      "title": "How ERP Benefits Consumer Technology?",
-      "items": [
-        {
-          "title": "Faster Time-to-Market",
-          "description": "Accelerate product launches with seamless ERP workflows."
-        },
-        {
-          "title": "Customer Insights & Analytics",
-          "description": "Enhance customer experience with real-time analytics."
-        },
-        {
-          "title": "Inventory & Supply Chain Efficiency",
-          "description": "Optimize production and logistics for cost savings."
-        },
-        {
-          "title": "Competitive Edge",
-          "description": "Stay ahead in the fast-evolving tech market."
-        }
-      ]
+   "benefits": {
+  "title": "How ERP Benefits Consumer Technology?",
+  "items": [
+    {
+      "title": "Faster Time-to-Market",
+      "description": "Accelerate product launches with seamless ERP workflows.",
+      "icon": "fa fa-clock"
     },
+    {
+      "title": "Customer Insights & Analytics",
+      "description": "Enhance customer experience with real-time analytics.",
+      "icon": "fa fa-chart-line"
+    },
+    {
+      "title": "Inventory & Supply Chain Efficiency",
+      "description": "Optimize production and logistics for cost savings.",
+      "icon": "fa fa-box"
+    },
+    {
+      "title": "Competitive Edge",
+      "description": "Stay ahead in the fast-evolving tech market.",
+      "icon": "fa fa-trophy"
+    }
+  ]
+}
+,
     "cta": {
       "title": "Take Your Consumer Tech Business to the Next Level",
       "description": "Leverage our ERP solutions to innovate and scale.",

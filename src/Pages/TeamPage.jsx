@@ -6,7 +6,7 @@ import Team4 from "../Components/Team/Team4";
 const TeamPage = () => {
     return (
         <div>
-            <BreadCumb Title="Our Team" banner={"/assets/img/servicesImages/service.webp"}></BreadCumb>
+            <BreadCumb Title="Our Team" banner={"/assets/img/servicesImages/team.png"} ></BreadCumb>
             <MarqueeText></MarqueeText>
             <Team4></Team4>
             <Cta1></Cta1>

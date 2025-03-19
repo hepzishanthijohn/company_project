@@ -4,12 +4,12 @@ import { useParams, useLocation } from "react-router-dom";
 // import ProjectDetailsRight from "./IndustriesDetailsRight";
 import IndustriesDetailsRight from "./IndustriesDetailsRight";
 const industriesMap = {
-  "retail": { position: "left", industriesName: "Retail" },
-  "banking-finance": { position: "center", industriesName: "Banking & Finance" },
-  "e-governance": { position: "right", industriesName: "E-governance" },
-  "software-Hi-Tech": { position: "center", industriesName: "Software & Hi-Tech" },
-  "healthcare": { position: "right", industriesName: "Healthcare" },
-  "consumer-technology": { position: "left", industriesName: "Consumer Technology" },
+  "retail": { position: "left", industriesName: "Retail",banner: "/assets/img/industryImage/retailbanner.jpg" },
+  "banking-finance": { position: "left", industriesName: "Banking & Finance" ,banner: "/assets/img/industryImage/finance.jpg"},
+  "e-governance": { position: "left", industriesName: "E-governance",banner: "/assets/img/industryImage/egovernance.jpg" },
+  "software-Hi-Tech": { position: "left", industriesName: "Software & Hi-Tech",banner: "/assets/img/industryImage/retail.jpg" },
+  "healthcare": { position: "left", industriesName: "Healthcare",banner: "/assets/img/industryImage/retail.jpg" },
+  "consumer-technology": { position: "left", industriesName: "Consumer Technology",banner: "/assets/img/industryImage/retail.jpg" },
   };
 
 const IndustriesIndex = () => {
@@ -20,7 +20,10 @@ const IndustriesIndex = () => {
  
   const { industriesName } = useParams();
 
-  const industries = industriesMap[industriesName] || { position: "left", industriesName: "industries" };
+  const industries = industriesMap[industriesName] || { 
+    position: "left",
+     industriesName: "industries"
+    };
 
 
   const renderComponent = () => {
@@ -30,7 +33,7 @@ const IndustriesIndex = () => {
       // case "center":
       //   return <ProejctDetailsCenter serviceName={serviceName}/>;
       default:
-        return <IndustriesDetailsRight industriesName={industries.industriesName} filter={industriesName}/>;
+        return <IndustriesDetailsRight industriesName={industries.industriesName} filter={industriesName} banner={industries.banner} />;
     }
   };
 
